@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAIQOH BRILIANTI</title>
+    <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
+</head>
+<body>
+    <center>
+        <div style="border: 1px solid black;">
+        
+            <h1>Latihan Formulir</h1>
+            <fieldset>
+                <legend align="center">Input Data</legend>
+                <form action="" method="post">
+                    <table style="width: 75%;">
+                        <tr>
+                            <td style="width: 40%;">Nama</td>
+                            <td>:</td>
+                            <td style="width: 60%;"><input type="text" name="nama" placeholder="Masukan Nama Lengkap"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 40%;">Password</td>
+                            <td>:</td>
+                            <td style="width: 60%;"><input type="password" password="password" required></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 40%;">Tanggal Lahir</td>
+                            <td>:</td>
+                            <td style="width: 60%;"><input type="date" name="tgl_lahir"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 40%;">Jenis Kelamin</td>
+                            <td>:</td>
+                            <td style="width: 60%;">
+                                <input type="radio" name="jenkel" value="Laki-Laki">Laki-Laki
+                                <input type="radio" name="jenkel" value="Perempuan">Perempuan
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 40%;">Nomor Telepon</td>
+                            <td>:</td>
+                            <td style="width: 60%;"><input type="number" name="no_telp" placeholder="Masukan Nomor Telepon"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 40%;">Asal Kota</td>
+                            <td>:</td>
+                            <td style="width: 60%;">
+                                <select name="askot" id="">
+                                    <option value="purwokerto" selected>Purwokerto</option>
+                                    <option value="purbalingga">Purbalingga/option>
+                                    <option value="cilacap">Cilacap</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 40%;">Alamat</td>
+                            <td>:</td>
+                            <td style="width: 60%">
+                                <textarea name="alamat" id="" cols="30" rows="10" placeholder="Silahkan katakan isi alamat"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 40%;">Hobi</td>
+                            <td>:</td>
+                            <td style="width: 60%;">
+                                    <input type="checkbox" name="hobi" value="Membaca">Membaca Buku
+                                    <input type="checkbox" name="hobi" value="Menulis" checked>Menulis
+                                    <input type="checkbox" name="hobi" value="Memancing">Memancing
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                                <td><label for="makanan">Makanan Favorit</label></td>
+                                <td>:</td>
+                                <td>
+                                  <input type="text" id="makanan" name="makanan" list="daftar_makanan">
+                                  <datalist id="daftar_makanan">
+                                    <option value="Ayam Bakar"></option>
+                                    <option value="Ayam Goreng"></option>
+                                    <option value="Ayam Panggang"></option>
+                                    <option value="Ayam Betutu"></option>
+                                    <option value="Ayam Krispi"></option>
+                                  </datalist>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td colspan="10"></td>
+                            <td><input type="submit" name="SUBMIT" value="Submit"></td>
+                            <td><input type="reset" name="RESET" value="Reset"></td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+            <button><a href="">Next Page</a></button>
+        </div>
+    </center>
+</body>
+</html>
